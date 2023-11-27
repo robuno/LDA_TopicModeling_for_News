@@ -6,9 +6,10 @@ The aim of this project is to examine the separation of contents in the [Bloombe
 The project includes:
 - cleaning the dataset (removing empty content)
 - discarding words/word groups that will create pollution with regex
+- removing stopwords and applying lemmatization (WordNet)
 - selecting the parameters that make the model most successful in terms of `coherence score` and `perplexity` metrics with grid search
 - making live visualizations of the subjects reduced in size with pyLDAvis
-- preprocessing and LDA model training times
+- measuring preprocessing and LDA model training times
 - measuring and visualizing the metric success of the model for different parameters.
 
 External libraries and packages:
@@ -20,17 +21,12 @@ External libraries and packages:
 - NumPy
 - Re 
 
-
-
 ## Screenshots
 ![pyLDAvis Visualization](https://raw.githubusercontent.com/robuno/LDA_TopicModeling_for_News/master/results/vis_intertopic_dist.png)
 
 ![3D Scatter Plot of Coherence Score (a:auto)](https://raw.githubusercontent.com/robuno/LDA_TopicModeling_for_News/master/results/3d_scatter_alpha_auto.png)
 
 ![3D Scatter Plot of Coherence Score (a:symmetric)](https://raw.githubusercontent.com/robuno/LDA_TopicModeling_for_News/master/results/3d_scatter_alpha_sym.png)
-
-
-
 
 
   
