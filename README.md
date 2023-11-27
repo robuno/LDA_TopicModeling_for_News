@@ -6,6 +6,7 @@ The aim of this project is to examine the separation of contents in the [Bloombe
 The project includes:
 - cleaning the dataset (removing empty content)
 - discarding words/word groups that will create pollution with regex
+- removing stopwords, punctuations and lemmatization with WordNetLemmatizer
 - selecting the parameters that make the model most successful in terms of `coherence score` and `perplexity` metrics with grid search
 - making live visualizations of the subjects reduced in size with pyLDAvis
 - preprocessing and LDA model training times
